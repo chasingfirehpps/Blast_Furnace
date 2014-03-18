@@ -1,0 +1,24 @@
+package Blocks;
+
+import net.minecraft.block.Block;
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
+
+public class Cfblocks4 {
+	
+	public static Block Blast_furnace;
+	
+	public static void init() {
+		Blast_furnace = new Blast_furnace(Blockinfo.Blast_furnace_ID);
+		GameRegistry.registerBlock(Blast_furnace, Blockinfo.Blast_furnace_KEY);
+		
+		
+	}
+		
+		
+		public static void addNames() {
+			LanguageRegistry.addName(Blast_furnace, Blockinfo.Blast_furnace_NAME);
+		
+		}
+		}
+			
